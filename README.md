@@ -19,10 +19,28 @@ pwd
 (this will indicate which folder you are currently in (print working directory)
 then type 
 ```
-/Applications/Slicer.app/Contents/MacOS/Slicer --no-splash --no-main-window --python-script "/Users/amaga/Desktop/slicerMorph_JSON_generator-main/generate_slicer_json.py" "/Users/amaga/Desktop/slicerMorph_JSON_generator-main/test_data/terminology_test.csv"
+/Applications/Slicer.app/Contents/MacOS/Slicer --no-splash --no-main-window --python-script "/Users/amaga/Downloads/slicerMorph_JSON_generator-main/generate_slicer_json.py" "/Users/amaga/Downloads/slicerMorph_JSON_generator-main/test_data/terminology_test.csv"
 
 ```
 
-generated file will be under the folder indicated by the pwd command above.
+this will output a file called **segmentation_category_type.json **in the folder indicated above. 
+
+Open this file in the text editor, and change the first line from:
+
+` "SegmentationCategoryTypeContextName": "Segmentation category and type"`
+to
+`  "SegmentationCategoryTypeContextName": "SlicerMorph category and type"`
+then save. 
 ### Windows
+TBD
+
+### Slicer instructions
+
+Open Slicer
+
+Search for the terminology module, then click the little + sign on the right hand side
+
+Navigate to the json file and choose that.
+
+generated file will be under the folder indicated by the pwd command above.
 
