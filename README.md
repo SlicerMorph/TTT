@@ -20,7 +20,6 @@ pwd
 then type 
 ```
 /Applications/Slicer.app/Contents/MacOS/Slicer --no-splash --no-main-window --python-script "/Users/amaga/Downloads/slicerMorph_JSON_generator-main/generate_slicer_json.py" "/Users/amaga/Downloads/slicerMorph_JSON_generator-main/test_data/terminology_test.csv"
-
 ```
 
 this will output a file called **segmentation_category_type.json **in the folder indicated above. 
@@ -29,7 +28,8 @@ Open this file in the text editor, and change the first line from:
 
 ` "SegmentationCategoryTypeContextName": "Segmentation category and type"`
 to
-`  "SegmentationCategoryTypeContextName": "SlicerMorph category and type"`
+
+` "SegmentationCategoryTypeContextName": "SlicerMorph category and type"`
 then save. 
 ### Windows
 TBD
