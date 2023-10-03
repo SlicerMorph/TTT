@@ -19,7 +19,7 @@ pwd
 (this will indicate which folder you are currently in (print working directory)
 then type 
 ```
-/Applications/Slicer.app/Contents/MacOS/Slicer --no-splash --no-main-window --python-script "/Users/amaga/Desktop/slicerMorph_JSON_generator/generate_slicer_json.py" "/Users/amaga/Desktop/slicerMorph_JSON_generator/test_data/terminology_test.csv"
+/Applications/Slicer.app/Contents/MacOS/Slicer --no-splash --no-main-window --python-script "/Users/amaga/slicerMorph_JSON_generator-main/generate_slicer_json.py" "/Users/amaga/slicerMorph_JSON_generator-main/test.csv"
 ```
 
 generated file will be under the folder indicated by the pwd command above.
