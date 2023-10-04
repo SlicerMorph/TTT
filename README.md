@@ -1,6 +1,9 @@
 # TTT
 SlicerMorph Train the Trainers
 
+## Github Instructions
+Google docs: https://docs.google.com/document/d/1nlqBMseK-kWcCzIhsjqddkaBh3hEqlPWAU2TLoIztRA/edit?pli=1
+
 
 ## Generating Terminology to be used in Slicer
 
