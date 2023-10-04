@@ -47,3 +47,22 @@ Navigate to the json file and choose that.
 
 generated file will be under the folder indicated by the pwd command above.
 
+
+## Forking and making changes in Slicermorph Tutorials
+fork on web
+```
+git clone https://github.com/smrolfe/Tutorials.git
+cd Tutorials
+git checkout -b myTutorialUpdate
+```
+make some changes
+```
+git add .
+git commit -m "Fix typo in GPA documentation"
+git push origin myTutorialUpdate
+```
+create pull request from web
+sync:
+git checkout master
+push to master
+git push origin master
