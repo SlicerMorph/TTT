@@ -47,7 +47,6 @@ Navigate to the json file and choose that.
 
 generated file will be under the folder indicated by the pwd command above.
 
-
 ## Forking and making changes in Slicermorph Tutorials
 fork on web
 ```
@@ -63,6 +62,13 @@ git push git@github.com/YOUR_GITHUB_USER/Tutorials
 ```
 create pull request from web
 sync:
+```
 git checkout master
 push to master
 git push origin master
+```
+## Tutorials from the workshop
+* [SPHARM Tutorial by Stephanie Smith](https://github.com/scutisorex/SPHARMtutorial)
+* [ImageStacks and Visualization by Natalia Taft](https://github.com/Natalia-Taft/TaftTutorials)
+* [Jaimi Gray's Segmentation Color Codes and Terms](https://docs.google.com/spreadsheets/d/1iVs6OMvu91sXPBWGYoZc6bKw9uy9J9e-z0Xs7ayfKRQ/edit#gid=0)
+
