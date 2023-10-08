@@ -72,4 +72,5 @@ git push origin master
 * [ImageStacks and Visualization by Natalia Taft](https://github.com/Natalia-Taft/TaftTutorials)
 * [Jaimi Gray's Segmentation Color Codes and Terms](https://docs.google.com/spreadsheets/d/1iVs6OMvu91sXPBWGYoZc6bKw9uy9J9e-z0Xs7ayfKRQ/edit#gid=0)
 * [Dominick Dickerson: Using ImageStacks, Segmentation and SplitVolume to separate a full scan into subvolumes:](https://github.com/ddickerson31/TTTTutorial)
+* [Susan Perrine: Segmentation Tutorial](https://github.com/SPerrine/3DSlicer_Segmentation_Tutorial)
 
