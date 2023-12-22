@@ -58,7 +58,7 @@ make some changes
 ```
 git add .
 git commit -m "Fix typo in GPA documentation"
-git push git@github.com/YOUR_GITHUB_USER/Tutorials
+git push git@github.com:YOUR_GITHUB_USER/Tutorials
 ```
 create pull request from web
 sync:
